@@ -25,3 +25,6 @@
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = git@github.com:docunext/closetag.vim.git
+[submodule "snipmate-snippets"]
+	path = snipmate-snippets
+	url = git@github.com:scrooloose/snipmate-snippets.git
