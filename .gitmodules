@@ -1,30 +1,40 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+	ignore = dirty
 [submodule "bundle/bundle/coffee"]
 	path = bundle/bundle/coffee
 	url = git@github.com:kchmck/vim-coffee-script.git
+	ignore = dirty
 [submodule "bundle/coffee"]
 	path = bundle/coffee
 	url = git@github.com:kchmck/vim-coffee-script.git
+	ignore = dirty
 [submodule "bundle/emmet"]
 	path = bundle/emmet
 	url = git@github.com:mattn/emmet-vim.git
+	ignore = dirty
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = git@github.com:hallettj/jslint.vim.git
+	ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git@github.com:msanders/snipmate.vim.git
+	ignore = dirty
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
+	ignore = dirty
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
 	url = git@github.com:Raimondi/delimitMate.git
+	ignore = dirty
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = git@github.com:docunext/closetag.vim.git
+	ignore = dirty
 [submodule "snipmate-snippets"]
 	path = snipmate-snippets
 	url = git@github.com:scrooloose/snipmate-snippets.git
+	ignore = dirty
