@@ -12,3 +12,8 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+Fonts:
+
+    https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro
+    I use the Light version at 15pt
