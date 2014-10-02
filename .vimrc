@@ -96,3 +96,7 @@ set showmode
 nnoremap <F3> :set hlsearch!<CR>
 nnoremap <F6> :set list!<bar>set list?<cr>
 nnoremap <F7> :set foldmethod=indent<cr>
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
