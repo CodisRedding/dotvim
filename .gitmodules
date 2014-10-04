@@ -58,3 +58,6 @@
 	path = bundle/airline
 	url = git@github.com:bling/vim-airline.git
 	ignore = dirty
+[submodule "bundle/node"]
+	path = bundle/node
+	url = git@github.com:moll/vim-node.git

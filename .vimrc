@@ -4,13 +4,13 @@ call pathogen#helptags()
 " General stuff
 
 set nocompatible
+syntax on
 filetype on
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 
 
 set background=light
-syntax on
 
 set ruler
 set noerrorbells
@@ -99,3 +99,8 @@ nnoremap <F7> :set foldmethod=indent<cr>
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
