@@ -22,3 +22,11 @@ Update:
 
     git submodule add git@github.com:bling/vim-airline.git bundle/airline
     git submodule update
+
+Theme:
+
+    mango:
+
+	   git clone https://github.com/goatslacker/mango.vim && make
+	   the makefile uses sed and an -i option which bombs on mac, so
+	   just close it to another dir and cp the mango.vim file to ~/.vim/colors
