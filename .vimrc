@@ -10,7 +10,9 @@ filetype plugin on
 set ofu=syntaxcomplete#Complete
 
 
-set background=light
+set background=dark
+set t_Co=256
+color mango
 
 set ruler
 set noerrorbells
@@ -20,6 +22,7 @@ set nostartofline
 
 set laststatus=2
 set ruler
+match ErrorMsg '\%>80v.\+'
 
 " Text Formatting
 
@@ -103,4 +106,7 @@ let g:airline_powerline_fonts = 1
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " autocmd vimenter * NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-c> :NERDTreeToggle<CR>
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+map <C-n> :tabnew<CR>
