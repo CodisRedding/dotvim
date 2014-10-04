@@ -38,3 +38,23 @@
 	path = snipmate-snippets
 	url = git@github.com:scrooloose/snipmate-snippets.git
 	ignore = dirty
+[submodule "bundle/ember"]
+	path = bundle/ember
+	url = git@github.com:dsawardekar/ember.vim.git
+	ignore = dirty
+[submodule "bundle/portkey"]
+	path = bundle/portkey
+	url = git@github.com:dsawardekar/portkey.git
+	ignore = dirty
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git@github.com:mustache/vim-mustache-handlebars.git
+	ignore = dirty
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+	ignore = dirty
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = git@github.com:bling/vim-airline.git
+	ignore = dirty

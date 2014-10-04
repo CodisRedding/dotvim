@@ -17,3 +17,8 @@ Fonts:
 
     https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro
     I use the Light version at 15pt
+
+Update:
+
+    git submodule add git@github.com:bling/vim-airline.git bundle/airline
+    git submodule update
