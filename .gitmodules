@@ -14,10 +14,6 @@
 	path = bundle/emmet
 	url = git@github.com:mattn/emmet-vim.git
 	ignore = dirty
-[submodule "bundle/jslint"]
-	path = bundle/jslint
-	url = git@github.com:hallettj/jslint.vim.git
-	ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git@github.com:msanders/snipmate.vim.git
@@ -61,3 +57,7 @@
 [submodule "bundle/node"]
 	path = bundle/node
 	url = git@github.com:moll/vim-node.git
+[submodule "bundle/jshint"]
+	path = bundle/jshint
+	url = git@github.com:walm/jshint.vim.git
+	ignore = dirty
