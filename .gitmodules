@@ -57,6 +57,7 @@
 [submodule "bundle/node"]
 	path = bundle/node
 	url = git@github.com:moll/vim-node.git
+	ignore = dirty
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = git@github.com:walm/jshint.vim.git
@@ -64,9 +65,12 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+	ignore = dirty
 [submodule "bundle/vinegar"]
 	path = bundle/vinegar
 	url = git://github.com/tpope/vim-vinegar.git
+	ignore = dirty
 [submodule "bundle/netrw"]
 	path = bundle/netrw
 	url = git@github.com:vim-scripts/netrw.vim.git
+	ignore = dirty
