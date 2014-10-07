@@ -61,3 +61,12 @@
 	path = bundle/jshint
 	url = git@github.com:walm/jshint.vim.git
 	ignore = dirty
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vinegar"]
+	path = bundle/vinegar
+	url = git://github.com/tpope/vim-vinegar.git
+[submodule "bundle/netrw"]
+	path = bundle/netrw
+	url = git@github.com:vim-scripts/netrw.vim.git
