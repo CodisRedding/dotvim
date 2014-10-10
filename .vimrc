@@ -108,6 +108,10 @@ let g:airline_powerline_fonts = 1
 "map <C-h> :tabp<CR>
 "map <C-n> :tabnew<CR>
 
+" netrw
+" open split window with the new window on the left
+let g:netrw_altv = 1
+
 set background=dark
 set t_Co=256
 color mango
