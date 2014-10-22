@@ -23,6 +23,8 @@ Update:
     git submodule add git@github.com:bling/vim-airline.git bundle/airline
     git submodule update
 
+    update all submodules: git submodule foreach git pull
+
 Theme:
 
     mango:
