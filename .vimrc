@@ -26,9 +26,9 @@ match ErrorMsg '\%>80v.\+'
 set nowrap
 
 " use indents of 2 spaces, and have them copied down lines:
-set tabstop=5
-set shiftwidth=5
-set softtabstop=5
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set shiftround
 set noexpandtab
 set autoindent
