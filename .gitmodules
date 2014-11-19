@@ -78,3 +78,7 @@
 	path = bundle/html5
 	url = git://github.com/othree/html5-syntax.vim.git
 	ignore = dirty
+[submodule "bundle/react-snippets"]
+	path = bundle/react-snippets
+	url = git@github.com:justinj/vim-react-snippets.git
+	ignore = dirty
