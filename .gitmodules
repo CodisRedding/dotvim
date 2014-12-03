@@ -90,3 +90,11 @@
 	path = bundle/dispatch
 	url = git://github.com/tpope/vim-dispatch.git
 	ignore = dirty
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+	ignore = dirty
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+	ignore = dirty
