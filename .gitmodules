@@ -86,3 +86,7 @@
 	path = bundle/omnisharp
 	url = https://github.com/nosami/Omnisharp.git
 	ignore = dirty
+[submodule "bundle/dispatch"]
+	path = bundle/dispatch
+	url = git://github.com/tpope/vim-dispatch.git
+	ignore = dirty
