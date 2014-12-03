@@ -82,3 +82,7 @@
 	path = bundle/react-snippets
 	url = git@github.com:justinj/vim-react-snippets.git
 	ignore = dirty
+[submodule "bundle/omnisharp"]
+	path = bundle/omnisharp
+	url = https://github.com/nosami/Omnisharp.git
+	ignore = dirty
