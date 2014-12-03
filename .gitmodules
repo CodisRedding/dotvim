@@ -98,11 +98,11 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = dirty
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git@github.com:ervandew/supertab.git
-	ignore = dirty
 [submodule "bundle/neocomplete"]
 	path = bundle/neocomplete
 	url = git@github.com:Shougo/neocomplete.vim.git
+	ignore = dirty
+[submodule "bundle/vimcsharp"]
+	path = bundle/vimcsharp
+	url = git@github.com:OrangeT/vim-csharp.git
 	ignore = dirty
