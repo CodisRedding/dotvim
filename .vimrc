@@ -57,7 +57,7 @@ autocmd FileType cpp set tabstop=3 shiftwidth=3
 autocmd FileType sql set tabstop=3 shiftwidth=3 nowrap
 autocmd FileType xml set tabstop=4 shiftwidth=4 softtabstop=4 nowrap
 autocmd FileType coffee set tabstop=2 shiftwidth=2 softtabstop=2 nowrap expandtab
-autocmd FileType js set tabstop=2 shiftwidth=2 softtabstop=2 nowrap expandtab
+autocmd FileType js set tabstop=4 shiftwidth=4 softtabstop=4 nowrap expandtab
 autocmd FileType html set nowrap
 autocmd BufRead,BufNewFile *.txt set tabstop=5 shiftwidth=5 wrap
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
