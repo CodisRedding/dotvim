@@ -33,6 +33,7 @@ set shiftwidth=4
 set softtabstop=4
 set shiftround
 " set noexpandtabset autoindent
+set autoindent
 set nosi
 
 " search and replace stuff
