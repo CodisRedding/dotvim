@@ -1,0 +1,25 @@
+# Log Simple
+snippet l
+	console.log(${1});
+# Error
+snippet el
+	console.error(${1});
+# Log Debug
+snippet dl
+	console.log('${1}:', ${2});
+# Require
+snippet rq
+	var ${1:var} = require('${2:module}');
+# Require lodash
+snippet r_
+	var _ = require('lodash');
+# Export Module
+snippet em
+	module.exports = ${1:module};
+# es6: Class
+snippet class
+	class ${1:name} extends ${2:extends} {
+	    constructor(${3:arg}) {
+		super(${4:arg});
+	    }
+	}
