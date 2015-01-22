@@ -109,6 +109,20 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = git://github.com/facebook/vim-flow.git
+	ignore = dirty
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
+	ignore = dirty
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+	ignore = dirty
+[submodule "bundle/webapi-vim"]
+	path = bundle/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
+	ignore = dirty
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git@github.com:mattn/gist-vim.git
+	ignore = dirty
