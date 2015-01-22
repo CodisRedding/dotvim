@@ -106,3 +106,6 @@
 	path = bundle/vimcsharp
 	url = git@github.com:OrangeT/vim-csharp.git
 	ignore = dirty
+[submodule "bundle/vim-flow"]
+	path = bundle/vim-flow
+	url = git://github.com/facebook/vim-flow.git
