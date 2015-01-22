@@ -118,6 +118,14 @@ set runtimepath^=~/.vim/bundle/ctrlp
 " open split window with the new window on the left
 let g:netrw_altv = 1
 
+" gist
+let g:gist_post_private = 1
+let g:gist_open_browser_after_post = 0
+let g:gist_clip_command = 'pbcopy'
+
+"jshint2
+let jshint2_save = 1
+
 set background=dark
 set t_Co=256
 color mango
