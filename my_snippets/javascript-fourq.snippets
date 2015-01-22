@@ -6,7 +6,17 @@ snippet el
 	console.error(${1});
 # Log Debug
 snippet dl
-	console.log('${1}:', ${2});
+	console.log('${1}:', $1);
+# Javascript Object
+snippet jso
+	var ${1:name} = {
+		${2:key}: ${3:value}
+	};
+# JSON Object
+snippet jo
+	var ${1:name} = {
+		"${1:key}": "${2:value}"	
+	};
 # Require
 snippet rq
 	var ${1:var} = require('${2:module}');
@@ -16,10 +26,70 @@ snippet r_
 # Export Module
 snippet em
 	module.exports = ${1:module};
+# use strict
+snippet us
+	'use strict';
 # es6: Class
 snippet class
 	class ${1:name} extends ${2:extends} {
-	    constructor(${3:arg}) {
-		super(${4:arg});
-	    }
+		constructor(${3:arg}) {
+		    super($3);
+		}
+	}
+# 3rd party: Async.auto
+snippet aa
+	Async.auto({
+		${1:name}: function (done) {
+
+			${3:twerk}	
+		},
+		${2:name}: ['$1', function (done, results) {
+
+			if (!results.$1) {
+				return done();
+			}
+
+			done();
+		}]
+	}, function (err, results) {
+
+		if (err) {
+		    return callback(err);	
+		}
+
+		callback(null, results);
+	});
+# 3rd party: Lab Test
+snippet lt
+	var Async = require('async');
+	var Lab = require('lab');
+	var Code = require('code');
+
+	
+	var lab = exports.lab = Lab.script();
+
+	lab.experiment('${1:describe}', function () {
+
+		lab.before(function (done) {
+
+			${3:before}
+		});
+
+		lab.after(function (done) {
+
+		});
+
+		lab.test('it ${2:should}', function (done) {
+
+		});
+	});
+# node: cli script
+snippet cli
+	#!/usr/bin/env node
+	var Fs = require('fs');
+	var Path = require('path');
+	var Async = require('async');
+
+	if (process.env.NODE_ENV === 'test') {
+
 	}
