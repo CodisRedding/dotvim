@@ -46,10 +46,6 @@
 	path = bundle/mustache
 	url = git@github.com:mustache/vim-mustache-handlebars.git
 	ignore = dirty
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
-	ignore = dirty
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = git@github.com:bling/vim-airline.git
@@ -129,21 +125,28 @@
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = git@github.com:tomtom/tcomment_vim.git
+	ignore = dirty
 [submodule "bundle/vim-jshint2"]
 	path = bundle/vim-jshint2
 	url = git@github.com:Shutnik/jshint2.vim.git
+	ignore = dirty
 [submodule "unite"]
 	path = unite
 	url = git@github.com:Shougo/unite.vim.git
+	ignore = dirty
 [submodule "bundle/unite"]
 	path = bundle/unite
 	url = git@github.com:Shougo/unite.vim.git
+	ignore = dirty
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = git@github.com:terryma/vim-multiple-cursors.git
+	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+	ignore = dirty
 [submodule "bundle/editorconfig"]
 	path = bundle/editorconfig
 	url = git@github.com:editorconfig/editorconfig-vim.git
+	ignore = dirty
