@@ -132,3 +132,18 @@
 [submodule "bundle/vim-jshint2"]
 	path = bundle/vim-jshint2
 	url = git@github.com:Shutnik/jshint2.vim.git
+[submodule "unite"]
+	path = unite
+	url = git@github.com:Shougo/unite.vim.git
+[submodule "bundle/unite"]
+	path = bundle/unite
+	url = git@github.com:Shougo/unite.vim.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = git@github.com:editorconfig/editorconfig-vim.git
