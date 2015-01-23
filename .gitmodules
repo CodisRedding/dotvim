@@ -150,3 +150,6 @@
 	path = bundle/editorconfig
 	url = git@github.com:editorconfig/editorconfig-vim.git
 	ignore = dirty
+[submodule "bundle/vim-nerdtree"]
+	path = bundle/vim-nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
