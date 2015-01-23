@@ -153,3 +153,8 @@
 [submodule "bundle/vim-nerdtree"]
 	path = bundle/vim-nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+	ignore = dirty
+[submodule "bundle/vim-tern"]
+	path = bundle/vim-tern
+	url = git@github.com:marijnh/tern_for_vim.git
+	ignore = dirty
