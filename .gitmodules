@@ -158,3 +158,9 @@
 	path = bundle/vim-tern
 	url = git@github.com:marijnh/tern_for_vim.git
 	ignore = dirty
+[submodule "bundle/tern"]
+	path = bundle/tern
+	url = git@github.com:marijnh/tern_for_vim.git
+[submodule "bundle/spacebars"]
+	path = bundle/spacebars
+	url = git://github.com/Slava/vim-spacebars.git
