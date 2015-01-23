@@ -10,7 +10,6 @@ filetype plugin on
 set ofu=syntaxcomplete#Complete
 
 
-set ruler
 set noerrorbells
 set nostartofline
 set vb
@@ -19,7 +18,7 @@ set vb
 
 set laststatus=2
 set ruler
-match ErrorMsg '\%>80v.\+'
+match ErrorMsg '\%>83v.\+'
 
 " Text Formatting
 
@@ -109,13 +108,11 @@ set runtimepath^=~/.vim/bundle/ctrlp
 " nerdTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " autocmd vimenter * NERDTree
-"map <C-c> :NERDTreeToggle<CR>
-"map <C-l> :tabn<CR>
-"map <C-h> :tabp<CR>
-"map <C-n> :tabnew<CR>
+map <C-c> :NERDTreeToggle<CR>
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+map <C-n> :tabnew<CR>
 
 " netrw
 " open split window with the new window on the left
@@ -132,7 +129,7 @@ nnoremap <silent><F1> :JSHint<CR>
 inoremap <silent><F1> <C-O>:JSHint<CR>
 vnoremap <silent><F1> :JSHint<CR>
 
-
+syntax enable
 set background=dark
-set t_Co=256
-color mango
+" set t_Co=256
+colorscheme Tomorrow-Night-Bright
